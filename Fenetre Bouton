@@ -13,7 +13,7 @@ liste_cercle=[]
 largeur=600
 hauteur=600
 couleur="light blue"
-fenetre.title("Meynard Alexandre")
+fenetre.title("Space Invaders")
 fenetre.geometry(str(largeur)+"x"+str(hauteur))
 fenetre.configure(bg=couleur)
 can=Canvas(fenetre,width=largeur,height=hauteur-100,bg="orange")
